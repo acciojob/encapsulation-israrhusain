@@ -4,8 +4,9 @@ public class Main {
    
     public static void main(String [] args) {
         RWOnly obj=new RWOnly();
-        obj.setter("israr");
-        System.out.println(obj.getter());
-        //obj.getter();
+        obj.setName("israr");
+        obj.setName("imran");
+        System.out.println(obj.getName());
+        
     }
 }
